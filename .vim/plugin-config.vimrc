@@ -27,19 +27,6 @@ let g:airline#extensions#tabline#enabled = 1 			"Barra superior-Habilitar o desh
 let g:airline#extensions#tabline#left_sep = ' >' 		"Config caracter separador de la barra superior
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 
-"	Auto Comentado
-let g:default_inline_comment = '//' 				"Caracter por defecto para comentario en linea
-let g:default_block_comment = '/*' 				"Caracter por defecto para comentario en bloque 
-let g:inline_comment_dict = {
-    \'//': ["js", "ts", "cpp", "c", "dart"],
-    \'#': ['py', 'sh'],
-    \'"': ['vim'],
-    \}
-let g:block_comment_dict = {
-    \'/*': ["js", "ts", "cpp", "c", "dart"],
-    \'"""': ['py'],
-    \}
-
 "	Emmet
 let g:user_emmet_leader_key='<c-z>'
 

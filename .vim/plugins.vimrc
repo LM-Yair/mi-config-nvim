@@ -12,7 +12,7 @@ Plug 'scrooloose/nerdtree' 		"Ventana de carpetas en forma de arbol
 Plug 'christoomey/vim-tmux-navigator' 	"Plug para poder saltar de una ventana a otra
 Plug 'yggdroot/indentline'		"Muestra una linea guia que resalta la indentación
 Plug 'jiangmiao/auto-pairs'		"Auto Completado de llaves
-Plug 'KarimElghamry/vim-auto-comment'	"Auto Comentado en linea y en bloques
+Plug 'ddollar/nerdcommenter/'		"Auto Comentado en linea y en bloques
 Plug 'mhinz/vim-signify'		"Coloca un signo en la linea que se haya modificado
 Plug 'mattn/emmet-vim'			"Emmet
 Plug 'tpope/vim-surround'		"Plugin que permite encapsular contenido con () ó {} ó []
