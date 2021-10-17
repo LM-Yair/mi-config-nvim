@@ -1,2 +1,1 @@
-# mi-config-nvim
-Mi configuración de NeoVim 😎💪🏼.
+# Mi configuración de NeoVim 😎💪🏼.
