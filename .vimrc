@@ -29,4 +29,3 @@ so ~/configNeoVim/.vim/plugin-config.vimrc
 "	maps
 so ~/configNeoVim/.vim/maps.vimrc
 
-
