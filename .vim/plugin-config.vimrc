@@ -1,4 +1,3 @@
-
 "	Tema
 let g:gruvbox_contrast_dark ="hard" 				"available: hard ,medium, soft.
 "let g:tokyonight_style='storm' 				"available: night, storm
@@ -24,7 +23,7 @@ endif
 let g:airline_theme='luna'
 "let g:airline_theme='minimalist'
 let g:airline#extensions#tabline#enabled = 1 			"Barra superior-Habilitar o deshabilitar
-let g:airline#extensions#tabline#left_sep = ' >' 		"Config caracter separador de la barra superior
+let g:airline#extensions#tabline#left_sep = ' | ' 		"Config caracter separador de la barra superior
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 "	Emmet
