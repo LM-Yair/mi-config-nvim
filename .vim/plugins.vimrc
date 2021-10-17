@@ -2,6 +2,8 @@ call plug#begin('~/configNeoVim/.vim/plugged')
 "	Temas Descargas
 Plug 'morhetz/gruvbox' 			"Tema gruvbox
 Plug 'sts10/vim-pink-moon'		"Tema pink moon
+Plug 'ghifarit53/tokyonight-vim'	"Tema tokyonight
+Plug 'joshdick/onedark.vim'
 Plug 'vim-airline/vim-airline'          "Barra inferior
 Plug 'vim-airline/vim-airline-themes'	"Barra inferior temas
 "	IDE
@@ -16,7 +18,9 @@ Plug 'mattn/emmet-vim'			"Emmet
 Plug 'tpope/vim-surround'		"Plugin que permite encapsular contenido con () ó {} ó []
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'			"Permite buscar archivos
-Plug 'neoclide/coc.nvim', {'branch': 'release'} "AutoCompletado  de CoC
+Plug 'neoclide/coc.nvim', {'branch': 'release'} 		"AutoCompletado  de CoC
+Plug 'lilydjwg/colorizer'		"Permite ver el color del código hexadesimal
+Plug 'ryanoasis/vim-devicons'		"Permite tener iconos en NerdTree
 Plug 'prettier/vim-prettier', {
   \ 'do': 'npm install',
   \ 'for': ['javascript', 'typescript', 'css','scss', 'json', 'graphql', 'svelte', 'html'] }

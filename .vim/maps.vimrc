@@ -13,9 +13,9 @@ nmap <leader>fq :q!<CR>
 "	Permite Forzar la funcion de guardar
 nmap <leader>fw :w!<CR> 
 "	Permite buscar archivos
-nmap  <leader>f :Files<CR>
-"	Permite Abrir la terminal
-nmap <leader>te :terminal<CR>
+nmap <leader>f :Files<CR>
+"	Permite Abrir la terminal al lado izquierdo
+nmap <C-t> <C-w>v 30<C-w>> <C-l> :terminal<CR>
 "	Permite Auto Comentar en linea
 nmap <leader>c :AutoInlineComment<CR>
 "	Permite Auto Comentar en bloque
@@ -25,9 +25,9 @@ nmap <leader>dv <C-w>v
 "	Permite dividir pantalla horizontal 
 nmap <leader>dh <C-w>s
 "	Permite cambiar el tamaño de la ventana (Izquierda)
-nmap <leader>< 10<C-w><
+nmap <silent>< 10<C-w><
 "	Permite cambiar el tamaño de la ventana (Derecha)
-nmap <leader>> 10<C-w>>
+nmap <silent>> 10<C-w>>
 "	Permite ir a la definicion de una funcion
 nmap <silent>gd <Plug>(coc-definition)
 "	Permite ir al tipo de definicion
@@ -50,3 +50,5 @@ nmap <leader>nn :!node %<CR>
 nmap <leader>vs ysiw
 "	Permite encerrar una linea completa entre '' | {} | () | etc
 nmap <leader>vsa yss
+"	Desmarca las busquedas hechas
+nmap <C-d> :nohlsearch<CR>
