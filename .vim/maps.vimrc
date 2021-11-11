@@ -2,8 +2,10 @@
 let mapleader=" "
 "	Permite saltar entre palabras buscando con dos letras
 nmap <leader>s <Plug>(easymotion-s2)
-"	Permite  abrir el arbol de carpetas
-nmap <leader>nt :NERDTreeFind<CR>
+"	Permite cargar el arbol de carpetas
+nmap <leader>ntt :NERDTreeFind<CR>
+"	Permite abrir o cerrar el arbol de carpetas
+nmap <leader>nt :NERDTreeToggle<CR>
 "	Permite guardar con <espacio+w>
 nmap <leader>w :w<CR> 
 "	Permite  salir con <espacio+q>
@@ -39,7 +41,7 @@ nmap <silent>bn :bn<CR>
 "	Permite saltar entre buffers (borrar Buffer 'buffer delete')
 nmap <silent>bd :bd<CR>
 "	Permite visualizar y navegar en el buffer
-nmap <leader>b :Buffer<CR>
+"nmap <leader>b :Buffer<CR>
 "	Permite ejecutar node
 nmap <leader>nn :!node %<CR>
 "	Permite encerrar una palabra entre '' | {} | () | etc

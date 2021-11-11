@@ -19,7 +19,6 @@ set colorcolumn=81 	"Marca una linea en la linea 81
 set hidden		"TextEdit might fail if hidden is not set.
 set signcolumn=yes	"always show signcolumns
 set updatetime=100	"You will have bad experience for diagnostic messages when it's default 4000.
-"set invhlsearch	"Deshabilita el resaltado de palabras al buscarlas.
 set background=dark
 set icon
 "set termguicolors

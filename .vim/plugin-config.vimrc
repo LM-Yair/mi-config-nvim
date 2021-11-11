@@ -1,6 +1,6 @@
 "	Tema
 let g:gruvbox_contrast_dark ="hard" 				"available: hard ,medium, soft.
-"let g:tokyonight_style='storm' 				"available: night, storm
+"let g:tokyonight_style='storm' 					"available: night, storm
 "let g:tokyonight_enable_italic=1
 "let g:onedark_termcolors=256 "256
 
@@ -42,3 +42,5 @@ let g:NERDTreeDirArrowCollapsible = ''
 
 "	Prettier
 let g:prettier#autoformat = 1
+let g:prettier#config#use_tabs = 'false' 			"use tabs instead of spaces: true, false, or auto. default: 'auto'
+let g:prettier#config#tab_width = 2				"number of spaces per indentation level: a number or 'auto'. default: 'auto'

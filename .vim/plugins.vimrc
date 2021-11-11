@@ -1,3 +1,4 @@
+
 call plug#begin('~/configNeoVim/.vim/plugged')
 "	Temas Descargas
 Plug 'morhetz/gruvbox' 			"Tema gruvbox
