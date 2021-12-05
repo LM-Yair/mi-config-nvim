@@ -17,7 +17,7 @@ nmap <leader>fw :w!<CR>
 "	Permite buscar archivos
 nmap <leader>f :Files<CR>
 "	Permite Abrir la terminal al lado izquierdo
-nmap <C-t> <C-w>v 30<C-w>> <C-l> :terminal<CR>
+nmap <C-t> <C-w>v 20<C-w>> <C-l> :terminal<CR>
 "	Permite dividir pantalla vertical
 nmap <leader>dv <C-w>v
 "	Permite dividir pantalla horizontal 
